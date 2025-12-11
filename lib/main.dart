@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:shared_pref_exp_450/splash_page.dart';
+import 'package:shared_pref_exp_450/whatsapp_page.dart';
 
 import 'home_page.dart';
 
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: HomePage(),
+      home: StatusPage(),
     );
   }
 }
